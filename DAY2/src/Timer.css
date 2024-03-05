@@ -1,0 +1,57 @@
+.wrapper {
+    width: 450px;
+    height: 100%;
+    border: 1px solid #000;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.time {
+    width: 400px;
+    height: 100px;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.input {
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn-container {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 100px;
+    height: 50px;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1‹5px;
+    cursor: pointer;
+}
+
+.btn-stop {
+    background-color : red;
+}
+
+.btn-start {
+    background-color : green;
+}
+
+.btn-reset {
+    background-color : yellow;
+}
